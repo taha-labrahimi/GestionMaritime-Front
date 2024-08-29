@@ -120,28 +120,7 @@ function Login() {
                                         Sign in
                                     </button>
                                 </div>
-                                <hr className="my-4"></hr>
-
-                                <div className="d-grid">
-                                    <Link
-                                        className="btn btn-outline-primary text-uppercase fw-bold"
-                                        to="/signup"
-                                        style={{
-                                            borderColor: '#e1311a',
-                                            color: '#e1311a',
-                                            transition: 'background-color 0.3s, color 0.3s'
-                                        }}
-                                        onMouseEnter={e => {
-                                            e.target.style.backgroundColor = '#e1311a';
-                                            e.target.style.color = 'white';
-                                        }}
-                                        onMouseLeave={e => {
-                                            e.target.style.backgroundColor = 'transparent';
-                                            e.target.style.color = '#e1311a';
-                                        }}>
-                                        Create new account
-                                    </Link>
-                                </div>
+                              
                             </form>
                         </div>
                     </div>
