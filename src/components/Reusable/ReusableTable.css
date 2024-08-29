@@ -1,0 +1,81 @@
+/* General table styling */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border-collapse: collapse; /* Ensures borders are displayed between header and columns */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+/* Table header styling */
+.table thead {
+    background-color: #f64e60; /* Header background color */
+    color: #fff; /* Header text color */
+}
+
+.table th,
+.table td {
+    padding: 16px 20px; /* Generous padding for better readability */
+    text-align: left;
+    vertical-align: middle; /* Ensures content is vertically centered */
+    border: 1px solid #dee2e6; /* Subtle borders between cells */
+}
+
+/* Header cell styling */
+.table th {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase; /* Optional: Makes the header text uppercase */
+    letter-spacing: 0.05em;
+}
+
+/* Row styling and hover effect */
+.table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa; /* Light gray background on hover */
+}
+
+.table td {
+    background-color: #fff; /* Cell background color */
+    border-bottom: 1px solid #dee2e6; /* Subtle bottom border for each cell */
+}
+
+/* Action buttons */
+.table td:last-child {
+    text-align: center;
+    white-space: nowrap; /* Prevents wrapping of buttons */
+}
+
+.btn-outline-info,
+.btn-outline-success,
+.btn-outline-danger {
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-size: 14px; /* Slightly smaller font for the buttons */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for buttons */
+}
+
+/* Button hover effects */
+.btn-outline-info:hover {
+    background-color: #17a2b8;
+    color: #fff;
+    border-color: #17a2b8;
+}
+
+.btn-outline-success:hover {
+    background-color: #4a28a7;
+    color: #fff;
+    border-color: #28a745;
+}
+
+.btn-outline-danger:hover {
+    background-color: #35dc67;
+    color: #fff;
+    border-color: #dc3545;
+}
