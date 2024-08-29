@@ -16,7 +16,7 @@ function ReusableTable({ columns, data, onDelete, onSave, tableName }) {
 
     if (!tableName) {
         console.error('tableName is undefined');
-        return null; // Exit early if tableName is not provided
+        return null; 
     }
 
     const handleClose = () => setShowModal(false);
